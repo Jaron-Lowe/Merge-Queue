@@ -1,0 +1,28 @@
+name: Pre-queue PR checks
+on:
+  # pull_request:
+  #   branches: [ main ]
+  merge_group:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref || github.run_id }}
+  cancel-in-progress: true
+
+jobs:
+  pr-checks:
+    name: Run Unit Tests
+    runs-on: macos-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set Xcode Version
+      uses: maxim-lobanov/setup-xcode@1.6.0
+      with:
+        xcode-version: '16.2'
+
+    - name: Run Unit Tests (xcodebuild)
+      run: xcodebuild test -project 'Merge-Queue-Test/Merge-Queue-Test.xcodeproj' -scheme 'Merge-Queue-Test' -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 16 Pro,OS=18.2' -skipPackagePluginValidation -skipMacroValidation
+
