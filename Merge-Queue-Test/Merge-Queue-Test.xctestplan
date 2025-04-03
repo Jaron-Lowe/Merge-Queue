@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "0C2738EF-F6E9-4689-A610-1FACEA171727",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Merge-Queue-Test.xcodeproj",
+      "identifier" : "BBF1828A2D9F272B00FCC2DE",
+      "name" : "Merge-Queue-Test"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Merge-Queue-Test.xcodeproj",
+        "identifier" : "BBF1829B2D9F272C00FCC2DE",
+        "name" : "Merge-Queue-TestTests"
+      }
+    }
+  ],
+  "version" : 1
+}
