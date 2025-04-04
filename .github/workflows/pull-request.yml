@@ -1,7 +1,7 @@
 name: Pre-queue PR checks
 on:
-  # pull_request:
-  #   branches: [ main ]
+  pull_request:
+    branches: [ main ]
   merge_group:
   workflow_dispatch:
 
