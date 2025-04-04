@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  Merge-Queue-Test
+//  Merge-Queue
 //
-//  Created by Jaron Lowe on 4/3/25.
+//  Created by Jaron Lowe on 4/4/25.
 //
 
 import SwiftUI
@@ -13,7 +13,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!!")
+            Text("Hello, world!")
         }
         .padding()
     }

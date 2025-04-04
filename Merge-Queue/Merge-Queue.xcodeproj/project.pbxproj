@@ -7,43 +7,43 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		BBF1829D2D9F272C00FCC2DE /* PBXContainerItemProxy */ = {
+		BB6B2E962DA032680059C316 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BBF182832D9F272B00FCC2DE /* Project object */;
+			containerPortal = BB6B2E7C2DA032670059C316 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BBF1828A2D9F272B00FCC2DE;
-			remoteInfo = "Merge-Queue-Test";
+			remoteGlobalIDString = BB6B2E832DA032670059C316;
+			remoteInfo = "Merge-Queue";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BB6B2E562D9F27C00059C316 /* Merge-Queue-Test.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Merge-Queue-Test.xctestplan"; sourceTree = "<group>"; };
-		BBF1828B2D9F272B00FCC2DE /* Merge-Queue-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Merge-Queue-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBF1829C2D9F272C00FCC2DE /* Merge-Queue-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Merge-Queue-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6241032DA03300003FA451 /* Merge-Queue.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Merge-Queue.xctestplan"; sourceTree = "<group>"; };
+		BB6B2E842DA032670059C316 /* Merge-Queue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Merge-Queue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6B2E952DA032680059C316 /* Merge-QueueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Merge-QueueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		BBF1828D2D9F272B00FCC2DE /* Merge-Queue-Test */ = {
+		BB6B2E862DA032670059C316 /* Merge-Queue */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Merge-Queue-Test";
+			path = "Merge-Queue";
 			sourceTree = "<group>";
 		};
-		BBF1829F2D9F272C00FCC2DE /* Merge-Queue-TestTests */ = {
+		BB6B2E982DA032680059C316 /* Merge-QueueTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Merge-Queue-TestTests";
+			path = "Merge-QueueTests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BBF182882D9F272B00FCC2DE /* Frameworks */ = {
+		BB6B2E812DA032670059C316 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BBF182992D9F272C00FCC2DE /* Frameworks */ = {
+		BB6B2E922DA032680059C316 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -53,21 +53,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BBF182822D9F272B00FCC2DE = {
+		BB6B2E7B2DA032670059C316 = {
 			isa = PBXGroup;
 			children = (
-				BB6B2E562D9F27C00059C316 /* Merge-Queue-Test.xctestplan */,
-				BBF1828D2D9F272B00FCC2DE /* Merge-Queue-Test */,
-				BBF1829F2D9F272C00FCC2DE /* Merge-Queue-TestTests */,
-				BBF1828C2D9F272B00FCC2DE /* Products */,
+				BB6241032DA03300003FA451 /* Merge-Queue.xctestplan */,
+				BB6B2E862DA032670059C316 /* Merge-Queue */,
+				BB6B2E982DA032680059C316 /* Merge-QueueTests */,
+				BB6B2E852DA032670059C316 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BBF1828C2D9F272B00FCC2DE /* Products */ = {
+		BB6B2E852DA032670059C316 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BBF1828B2D9F272B00FCC2DE /* Merge-Queue-Test.app */,
-				BBF1829C2D9F272C00FCC2DE /* Merge-Queue-TestTests.xctest */,
+				BB6B2E842DA032670059C316 /* Merge-Queue.app */,
+				BB6B2E952DA032680059C316 /* Merge-QueueTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,99 +75,99 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BBF1828A2D9F272B00FCC2DE /* Merge-Queue-Test */ = {
+		BB6B2E832DA032670059C316 /* Merge-Queue */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBF182B02D9F272C00FCC2DE /* Build configuration list for PBXNativeTarget "Merge-Queue-Test" */;
+			buildConfigurationList = BB6B2EA92DA032680059C316 /* Build configuration list for PBXNativeTarget "Merge-Queue" */;
 			buildPhases = (
-				BBF182872D9F272B00FCC2DE /* Sources */,
-				BBF182882D9F272B00FCC2DE /* Frameworks */,
-				BBF182892D9F272B00FCC2DE /* Resources */,
+				BB6B2E802DA032670059C316 /* Sources */,
+				BB6B2E812DA032670059C316 /* Frameworks */,
+				BB6B2E822DA032670059C316 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				BBF1828D2D9F272B00FCC2DE /* Merge-Queue-Test */,
+				BB6B2E862DA032670059C316 /* Merge-Queue */,
 			);
-			name = "Merge-Queue-Test";
+			name = "Merge-Queue";
 			packageProductDependencies = (
 			);
-			productName = "Merge-Queue-Test";
-			productReference = BBF1828B2D9F272B00FCC2DE /* Merge-Queue-Test.app */;
+			productName = "Merge-Queue";
+			productReference = BB6B2E842DA032670059C316 /* Merge-Queue.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BBF1829B2D9F272C00FCC2DE /* Merge-Queue-TestTests */ = {
+		BB6B2E942DA032680059C316 /* Merge-QueueTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBF182B32D9F272C00FCC2DE /* Build configuration list for PBXNativeTarget "Merge-Queue-TestTests" */;
+			buildConfigurationList = BB6B2EAC2DA032680059C316 /* Build configuration list for PBXNativeTarget "Merge-QueueTests" */;
 			buildPhases = (
-				BBF182982D9F272C00FCC2DE /* Sources */,
-				BBF182992D9F272C00FCC2DE /* Frameworks */,
-				BBF1829A2D9F272C00FCC2DE /* Resources */,
+				BB6B2E912DA032680059C316 /* Sources */,
+				BB6B2E922DA032680059C316 /* Frameworks */,
+				BB6B2E932DA032680059C316 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BBF1829E2D9F272C00FCC2DE /* PBXTargetDependency */,
+				BB6B2E972DA032680059C316 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				BBF1829F2D9F272C00FCC2DE /* Merge-Queue-TestTests */,
+				BB6B2E982DA032680059C316 /* Merge-QueueTests */,
 			);
-			name = "Merge-Queue-TestTests";
+			name = "Merge-QueueTests";
 			packageProductDependencies = (
 			);
-			productName = "Merge-Queue-TestTests";
-			productReference = BBF1829C2D9F272C00FCC2DE /* Merge-Queue-TestTests.xctest */;
+			productName = "Merge-QueueTests";
+			productReference = BB6B2E952DA032680059C316 /* Merge-QueueTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BBF182832D9F272B00FCC2DE /* Project object */ = {
+		BB6B2E7C2DA032670059C316 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					BBF1828A2D9F272B00FCC2DE = {
+					BB6B2E832DA032670059C316 = {
 						CreatedOnToolsVersion = 16.2;
 					};
-					BBF1829B2D9F272C00FCC2DE = {
+					BB6B2E942DA032680059C316 = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = BBF1828A2D9F272B00FCC2DE;
+						TestTargetID = BB6B2E832DA032670059C316;
 					};
 				};
 			};
-			buildConfigurationList = BBF182862D9F272B00FCC2DE /* Build configuration list for PBXProject "Merge-Queue-Test" */;
+			buildConfigurationList = BB6B2E7F2DA032670059C316 /* Build configuration list for PBXProject "Merge-Queue" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = BBF182822D9F272B00FCC2DE;
+			mainGroup = BB6B2E7B2DA032670059C316;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = BBF1828C2D9F272B00FCC2DE /* Products */;
+			productRefGroup = BB6B2E852DA032670059C316 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BBF1828A2D9F272B00FCC2DE /* Merge-Queue-Test */,
-				BBF1829B2D9F272C00FCC2DE /* Merge-Queue-TestTests */,
+				BB6B2E832DA032670059C316 /* Merge-Queue */,
+				BB6B2E942DA032680059C316 /* Merge-QueueTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BBF182892D9F272B00FCC2DE /* Resources */ = {
+		BB6B2E822DA032670059C316 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BBF1829A2D9F272C00FCC2DE /* Resources */ = {
+		BB6B2E932DA032680059C316 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -177,14 +177,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BBF182872D9F272B00FCC2DE /* Sources */ = {
+		BB6B2E802DA032670059C316 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BBF182982D9F272C00FCC2DE /* Sources */ = {
+		BB6B2E912DA032680059C316 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -194,15 +194,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BBF1829E2D9F272C00FCC2DE /* PBXTargetDependency */ = {
+		BB6B2E972DA032680059C316 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BBF1828A2D9F272B00FCC2DE /* Merge-Queue-Test */;
-			targetProxy = BBF1829D2D9F272C00FCC2DE /* PBXContainerItemProxy */;
+			target = BB6B2E832DA032670059C316 /* Merge-Queue */;
+			targetProxy = BB6B2E962DA032680059C316 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		BBF182AE2D9F272C00FCC2DE /* Debug */ = {
+		BB6B2EA72DA032680059C316 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,7 +263,7 @@
 			};
 			name = Debug;
 		};
-		BBF182AF2D9F272C00FCC2DE /* Release */ = {
+		BB6B2EA82DA032680059C316 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -316,15 +316,15 @@
 			};
 			name = Release;
 		};
-		BBF182B12D9F272C00FCC2DE /* Debug */ = {
+		BB6B2EAA2DA032680059C316 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Merge-Queue-Test/Merge_Queue_Test.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Merge-Queue/Merge_Queue.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Merge-Queue-Test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Merge-Queue/Preview Content\"";
 				DEVELOPMENT_TEAM = UL3RBMBKF2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -338,12 +338,13 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lowe.Merge-Queue-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lowe.Merge-Queue";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -355,15 +356,15 @@
 			};
 			name = Debug;
 		};
-		BBF182B22D9F272C00FCC2DE /* Release */ = {
+		BB6B2EAB2DA032680059C316 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Merge-Queue-Test/Merge_Queue_Test.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Merge-Queue/Merge_Queue.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Merge-Queue-Test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Merge-Queue/Preview Content\"";
 				DEVELOPMENT_TEAM = UL3RBMBKF2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -377,12 +378,13 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lowe.Merge-Queue-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lowe.Merge-Queue";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -394,7 +396,7 @@
 			};
 			name = Release;
 		};
-		BBF182B42D9F272C00FCC2DE /* Debug */ = {
+		BB6B2EAD2DA032680059C316 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -405,19 +407,19 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lowe.Merge-Queue-TestTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lowe.Merge-QueueTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Merge-Queue-Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Merge-Queue-Test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Merge-Queue.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Merge-Queue";
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Debug;
 		};
-		BBF182B52D9F272C00FCC2DE /* Release */ = {
+		BB6B2EAE2DA032680059C316 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -428,14 +430,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lowe.Merge-Queue-TestTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lowe.Merge-QueueTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Merge-Queue-Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Merge-Queue-Test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Merge-Queue.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Merge-Queue";
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Release;
@@ -443,34 +445,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BBF182862D9F272B00FCC2DE /* Build configuration list for PBXProject "Merge-Queue-Test" */ = {
+		BB6B2E7F2DA032670059C316 /* Build configuration list for PBXProject "Merge-Queue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BBF182AE2D9F272C00FCC2DE /* Debug */,
-				BBF182AF2D9F272C00FCC2DE /* Release */,
+				BB6B2EA72DA032680059C316 /* Debug */,
+				BB6B2EA82DA032680059C316 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BBF182B02D9F272C00FCC2DE /* Build configuration list for PBXNativeTarget "Merge-Queue-Test" */ = {
+		BB6B2EA92DA032680059C316 /* Build configuration list for PBXNativeTarget "Merge-Queue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BBF182B12D9F272C00FCC2DE /* Debug */,
-				BBF182B22D9F272C00FCC2DE /* Release */,
+				BB6B2EAA2DA032680059C316 /* Debug */,
+				BB6B2EAB2DA032680059C316 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BBF182B32D9F272C00FCC2DE /* Build configuration list for PBXNativeTarget "Merge-Queue-TestTests" */ = {
+		BB6B2EAC2DA032680059C316 /* Build configuration list for PBXNativeTarget "Merge-QueueTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BBF182B42D9F272C00FCC2DE /* Debug */,
-				BBF182B52D9F272C00FCC2DE /* Release */,
+				BB6B2EAD2DA032680059C316 /* Debug */,
+				BB6B2EAE2DA032680059C316 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BBF182832D9F272B00FCC2DE /* Project object */;
+	rootObject = BB6B2E7C2DA032670059C316 /* Project object */;
 }

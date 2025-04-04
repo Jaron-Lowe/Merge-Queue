@@ -15,10 +15,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BBF1828A2D9F272B00FCC2DE"
-               BuildableName = "Merge-Queue-Test.app"
-               BlueprintName = "Merge-Queue-Test"
-               ReferencedContainer = "container:Merge-Queue-Test.xcodeproj">
+               BlueprintIdentifier = "BB6B2E832DA032670059C316"
+               BuildableName = "Merge-Queue.app"
+               BlueprintName = "Merge-Queue"
+               ReferencedContainer = "container:Merge-Queue.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -30,34 +30,10 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <TestPlans>
          <TestPlanReference
-            reference = "container:Merge-Queue-Test.xctestplan"
+            reference = "container:Merge-Queue.xctestplan"
             default = "YES">
          </TestPlanReference>
       </TestPlans>
-      <Testables>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BBF1829B2D9F272C00FCC2DE"
-               BuildableName = "Merge-Queue-TestTests.xctest"
-               BlueprintName = "Merge-Queue-TestTests"
-               ReferencedContainer = "container:Merge-Queue-Test.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BBF182A52D9F272C00FCC2DE"
-               BuildableName = "Merge-Queue-TestUITests.xctest"
-               BlueprintName = "Merge-Queue-TestUITests"
-               ReferencedContainer = "container:Merge-Queue-Test.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -73,10 +49,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BBF1828A2D9F272B00FCC2DE"
-            BuildableName = "Merge-Queue-Test.app"
-            BlueprintName = "Merge-Queue-Test"
-            ReferencedContainer = "container:Merge-Queue-Test.xcodeproj">
+            BlueprintIdentifier = "BB6B2E832DA032670059C316"
+            BuildableName = "Merge-Queue.app"
+            BlueprintName = "Merge-Queue"
+            ReferencedContainer = "container:Merge-Queue.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -90,10 +66,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BBF1828A2D9F272B00FCC2DE"
-            BuildableName = "Merge-Queue-Test.app"
-            BlueprintName = "Merge-Queue-Test"
-            ReferencedContainer = "container:Merge-Queue-Test.xcodeproj">
+            BlueprintIdentifier = "BB6B2E832DA032670059C316"
+            BuildableName = "Merge-Queue.app"
+            BlueprintName = "Merge-Queue"
+            ReferencedContainer = "container:Merge-Queue.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
