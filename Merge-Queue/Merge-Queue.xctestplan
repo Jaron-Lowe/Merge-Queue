@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "76051CE8-7105-4B20-8AFF-5C53B20597CC",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Merge-Queue.xcodeproj",
+        "identifier" : "BB6B2E942DA032680059C316",
+        "name" : "Merge-QueueTests"
+      }
+    }
+  ],
+  "version" : 1
+}
