@@ -19,5 +19,6 @@ final class Merge_Queue_TestTests: XCTestCase {
 
     func testExample() throws {
         XCTAssertTrue(true)
+        XCTAssertFalse(true)
     }
 }
